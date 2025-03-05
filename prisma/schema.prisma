@@ -25,7 +25,7 @@ model Profile {
   channels Channel[]
 
   createdAt DateTime @default(now())
-  updated   DateTime @updatedAt
+  updatedAt   DateTime @updatedAt
 }
 
 model Server {
